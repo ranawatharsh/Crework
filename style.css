@@ -56,3 +56,32 @@ body{
     text-decoration: underline orange;
   text-underline-offset: 2px; 
 }
+.hero{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    flex-direction: column;
+}
+.hero h1{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    margin-top: 5rem;
+    font-size:40px ;
+    width: 100%;
+   
+}
+.hero h2{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: white;
+    font-size:40px ;
+    width: 100%;
+    top: 0%;
+    margin: 0%;
+    margin-left: 20%;
+}
