@@ -70,8 +70,16 @@ body{
     font-style: normal;
     margin-top: 5rem;
     font-size:40px ;
-    width: 100%;
-   
+    
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.title h1::after{
+    content: ".";
+    position: absolute;
+    color: #ff9900;
 }
 .hero h2{
     font-family: "Outfit", sans-serif;
@@ -81,7 +89,60 @@ body{
     color: white;
     font-size:40px ;
     width: 100%;
+    position:relative;
     top: 0%;
     margin: 0%;
     margin-left: 20%;
+    margin-top: -2rem;
+    margin-bottom: 5%;
+}
+.Hero-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.Hero-2 p{
+    position: fixed;
+    left: 20%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: small;
+
+}
+.Hero-2 p::before{
+    content: "*";
+    color: #ff9900;
+}
+.hero2-section{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    text-align: right;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+   top: 50%;
+   right: 10%;
+   margin-top: 4%;
+
+}
+
+.hero2-section .img1{
+    width: 60%;
+    padding: 0%;
+    margin-right: -100px;
+    
+   
+}
+.hero2-section .img2{
+    width: 60%;
+    padding: 0;
+    margin-left: -100px;
+    
+    
 }
